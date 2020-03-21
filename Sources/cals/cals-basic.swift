@@ -7,12 +7,14 @@
 
 import Foundation
 
+public typealias CalI = String
+
 //
 public struct Cal {
     //
     let a: Int
     
     //
-    public init(a: Int) { self.a=a}
+    public init() { self.a = 1 }
 }
 
