@@ -14,6 +14,8 @@ let package = Package(
         .library(
             name: "cals",
             targets: ["cals"]),
+        
+        .library(name: "numas", targets: ["numas"])
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -28,6 +30,7 @@ let package = Package(
         .target(
             name: "cals",
             dependencies: []),
+        .target(name: "numas"),
         .testTarget(
             name: "pm2Tests",
             dependencies: ["pm2"]),
