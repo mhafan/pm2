@@ -1,3 +1,12 @@
-struct pm2 {
-    var text = "Hello, World!"
+
+//
+public struct pm2data {
+    //
+    let a: Int
 }
+
+public func ahoj() {
+    //
+    print("ahoj")
+}
+
